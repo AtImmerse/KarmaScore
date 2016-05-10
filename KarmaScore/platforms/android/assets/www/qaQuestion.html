@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/qaQuestion.css">
+        <title>QA</title>
+        <script src="jquery/jquery-1.9.1.js"></script>
+    </head>
+    <body>  
+         <div class="app">
+            <p id="deviceready" class="event"></p>
+        </div>     
+        <div class="QA" id="QA">
+        	<p class="question"></p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Answer 1</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Answer 2</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Answer 3</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Answer 4</label><br/>
+			</ul>
+        </div>
+
+		<div id="next">Next</div>
+		
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/qaDatabase.js"></script>
+    </body>
+</html>
